@@ -1,0 +1,41 @@
+/* globals.css */
+
+:root {
+  /* Tema Light */
+  --button-bg-light: #ffffff;
+  --button-text-light: #000000;
+
+  /* Tema Dark */
+  --button-bg-dark: #333333;
+  --button-text-dark: #ffffff;
+}
+
+body.light {
+  --button-bg: var(--button-bg-light);
+  --button-text: var(--button-text-light);
+}
+
+body.dark {
+  --button-bg: var(--button-bg-dark);
+  --button-text: var(--button-text-dark);
+}
+
+/* globals.css ou em um arquivo CSS específico para o botão */
+
+button {
+  background-color: var(--button-bg);
+  color: var(--button-text);
+  /* ... outros estilos do botão ... */
+}
+
+/* globals.css */
+
+.button-light {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.button-dark {
+  background-color: #333333;
+  color: #ffffff;
+}
